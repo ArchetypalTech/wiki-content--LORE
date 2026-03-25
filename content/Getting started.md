@@ -1,4 +1,5 @@
-# Getting Started
+# LORE Wiki
+TEST
 Your first piece of content.
 
 ## What to do next
