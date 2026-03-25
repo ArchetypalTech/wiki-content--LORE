@@ -1,5 +1,6 @@
 # LORE Wiki
 TEST
+test test
 Your first piece of content.
 
 ## What to do next
