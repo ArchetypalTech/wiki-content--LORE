@@ -1,5 +1,6 @@
-# Getting Started
-Your first piece of content.
+# What is LORE?
+
+LORE is a tool that allows the creation of text onchain games.....
 
 ## What to do next
 * Put local Images into `attachments`
