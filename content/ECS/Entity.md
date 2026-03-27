@@ -43,7 +43,7 @@ pub struct Entity {
   
 - `name`: The name of the object in the world.
   
-- **alt_names:** The alternative names of the object that will be used for interacting with it.
+- `alt_names`: The alternative names of the object that will be used for interacting with it.
   
 - `creator_address`: The public address that belongs to the person that created the object.
   

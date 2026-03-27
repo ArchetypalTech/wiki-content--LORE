@@ -1,4 +1,3 @@
-
 # Reactable
 
 A`Reactable` component is the presentation/interactions layer for many world objects. It stays decoupled from the actual text storage, which is why authoring can add or remove descriptions independently.
@@ -43,7 +42,7 @@ pub struct Reactable {
 
 - `is_visible`: Indicates whether the object should currently be visible when checking the location context.
 
-- `description`: Stores the array of `DescriptionText.key` values from which the corresponding descriptions can be matched through the `actioni_map`.
+- `description`: An array that stores the `key` variable from the [[Description Text]] from which the corresponding descriptions can be matched through the `action_map`.
 
 - `already_shown`: Is the state flag for first-time text behavior and if true then display the `new_entry`.
 
@@ -94,38 +93,3 @@ pub enum ReactableActions {
 		- Example: *inspect the bag*.
 		  
 - `entrypoints`: stores the unique ID key of the description/s text/s that is desired to link the verb-action with.
-
-# Description Text
-
-The ECS model separates `this object is reactable` from `these are the text snippets it can show`.
-## Purpose
-
-The `Description Text` component stores the text content entries attached to an entity. This approach allows to supports multiple description records per entity.
-
-## Model
-
-The `DescriptionText` Dojo model is composed by:
-
-```
-#[dojo::model]
-pub struct DescriptionText {
-    /// Unique identifier from the Entity it is attached to
-    #[key]
-    pub inst: felt252,
-
-    /// Unique identifier of the description
-    #[key]
-    pub key: u32,
-
-    /// Description text
-    pub text: ByteArray,
-}
-```
-
-### Variables Characteristics
-
-- `inst`: Is the unique ID of the entity/object to whom the component is attached to.
-
-- `key`: Is the per-entity description id/key.
-
-- `text`: Stores the actual content.
