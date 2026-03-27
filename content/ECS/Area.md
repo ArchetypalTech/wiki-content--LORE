@@ -1,3 +1,4 @@
+# Area
 ## Purpose
 
 The `Area` component marks an entity as a room/area in the world. It stores room-level state used by navigation and progression.

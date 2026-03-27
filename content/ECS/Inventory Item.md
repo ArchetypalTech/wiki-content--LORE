@@ -1,12 +1,12 @@
-
+# Inventory Item
 
 ## Purpose
 
-The `Inventory Item` component marks an entity as an item that can belong to a player, room, or container. It handles item-use command execution.
+The `InventoryItem` component marks an entity as an item that can belong to a player, room, or container. It handles item-use command execution.
 
 ## Model
 
-The `Inventory Item` Dojo model is composed by:
+The `InventoryItem` Dojo model is composed by:
 
 ```
 #[dojo::model]
@@ -86,17 +86,17 @@ pub enum InventoryItemActions {
 - `inst`: The `inst` of the inventory item component.
   
 - `action_fn`:  The type of action to be executed when interacting with the objec through the verb:
-	- `UseItem`:  Use the item to trigger an action.
-		- Example: `throw a rock to the window` 
+	- **UseItem**:  Use the item to trigger an action.
+		- Example: *throw a rock to the window*
 		  
-	- `PickupItem`: Picks up an object and store it on the player personal inventory (container). 
-		- Example: `pick up the ring`.
+	- **PickupItem**: Picks up an object and store it on the player personal inventory (container). 
+		- Example: *pick up the ring*.
 		  
-	- `DropItem`: Drops an object and place it on the room/location. 
-		- Example: `drop the ring`.
+	- **DropItem**: Drops an object and place it on the room/location. 
+		- Example: *drop the ring*.
 		  
-	- `PutItem`: Put an object inside an specific container. 
-		- Example: `put the sword inside the sheath`.
+	- **PutItem**: Put an object inside an specific container. 
+		- Example: *put the sword inside the sheath*.
 		  
-	- `TakeItemOut`: Take an object from a specif container and place it in the room/location.
-		- Example: `take the orb from the chest`.
+	- **TakeItemOut**: Take an object from a specif container and place it in the room/location.
+		- Example: *take the orb from the chest*.

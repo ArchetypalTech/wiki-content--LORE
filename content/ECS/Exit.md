@@ -1,3 +1,4 @@
+# Exit
 
 `Exit` is not just a pointer to another room. It is an interactive component with command dispatch, validation, movement, and optional post-move action triggers.
 
@@ -67,4 +68,4 @@ pub enum ExitActions {
 - `action_fn`:  The type of action to be executed when interacting with the objec through the verb.
   
 - `UseExit`: Type of function that when called through the verb will execute the logic of using it as an exit. 
-	- Examples: `use the door`, `enter the telepor`, `go north`
+	- Examples: *use the door*, *enter the teleport*, *go north*

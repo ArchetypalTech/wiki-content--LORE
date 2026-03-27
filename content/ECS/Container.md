@@ -1,5 +1,6 @@
+# Container
 
-`Container` is a good example of ECS composition: storage behavior comes from the `Container` component, while contents are represented through generic entity parent/child relationships and the items themselves are separate `InventoryItem` components.
+`Container` is a good example of ECS composition: storage behavior comes from the container component, while contents are represented through generic entity parent/child relationships and the items themselves are separate `InventoryItem` components.
 
 ## Purpose
 
@@ -75,11 +76,11 @@ pub enum ContainerActions {
 - `inst`: The `inst` of the container component.
   
 - `action_fn`:  The type of action to be executed when interacting with the objec through the verb:
-	- `Open`:  Change the `is_open` variable to `true` which will allow to check the container state.
-		-  Example: `open the bag`.
+	- **Open**:  Change the `is_open` variable to `true` which will allow to check the container state.
+		-  Example: *open the bag*.
 		  
-	- `Close:` Change the `is_open` variable to `false` which will restringe the amount of information when checking the container state.
-		- Example: `close the chest`.
+	- **Close**: Change the `is_open` variable to `false` which will restringe the amount of information when checking the container state.
+		- Example: *close the chest*.
 		  
-	- `Check`: Provides information about the state of the container such as status, can store or not, what objects are stored among other information.
-		- Example: `check the storage`.
+	- **Check**: Provides information about the state of the container such as status, can store or not, what objects are stored among other information.
+		- Example: *check the storage*.

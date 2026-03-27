@@ -81,17 +81,17 @@ pub enum ReactableActions {
   
 - `action_fn`:  The type of action to be executed when interacting with the objec through the verb.
   
-	- `SetVisible`: Toggles the boolean value that indicates if the object is `is_visible` when checking the context of the location. 
-		- Example: `hide the gem`.
+	- **SetVisible**: Toggles the boolean value that indicates if the object is `is_visible` when checking the context of the location. 
+		- Example: *hide the gem*.
 		  
-	- `ReadRandomDescription`: Returns a random description text using the range values from `entrypoints` against the key values stored inside the `description variable` . 
-		- Example: `talk to the driver`.
+	- **ReadRandomDescription**: Returns a random description text using the range values from `entrypoints` against the key values stored inside the `description` variable . 
+		- Example: *talk to the driver*.
 		  
-	- `ReadFirstDescritpion`: Returns the first description text. 
-		- Example: `read the news`.
+	- **ReadFirstDescritpion**: Returns the first description text. 
+		- Example: *read the news*.
 		  
-	- `ReadSpecificDescrition`: Returns an specific description text specified in the `entrypoints` variable. 
-		- Example: `inspect the bag.`
+	- **ReadSpecificDescrition**: Returns an specific description text specified in the `entrypoints` variable. 
+		- Example: *inspect the bag*.
 		  
 - `entrypoints`: stores the unique ID key of the description/s text/s that is desired to link the verb-action with.
 

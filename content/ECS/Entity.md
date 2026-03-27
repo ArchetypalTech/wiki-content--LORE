@@ -3,9 +3,9 @@
 
 ## What is an Entity?
 
-An entity represents an specific object. It possess an unique ID that will be reused by the components that forms it (like an exit component). Therefore, is the foundation of the ECS architecture.
+An entity represents an specific object. It possess an unique ID that will be reused by the components that forms it (like an [exit component](exit)). Therefore, is the foundation of the ECS architecture.
 
-![[object_entity_component.png]]
+![[attachments/object_entity_component.png]]
 ## Model
 
 The `Entity` Dojo model, as mentioned previously; is the foundation of the ECS architecture. It's composed by:
@@ -38,8 +38,13 @@ pub struct Entity {
 ## Variables Characteristics
 
 - `inst`: Is the unique ID of the entity that will serve for indetification and interaction of it at the contract side (backend). Every component attached to this object reuses this same key.
+  
 - `trail_id`: Indicates to which trail the object belongs to. If it is the main trail (original one) will be ZERO.
+  
 - `name`: The name of the object in the world.
+  
 - **alt_names:** The alternative names of the object that will be used for interacting with it.
+  
 - `creator_address`: The public address that belongs to the person that created the object.
+  
 - `actions_keys`: The array of the actions keys  that links the object to action records that can be triggered after interactions.
