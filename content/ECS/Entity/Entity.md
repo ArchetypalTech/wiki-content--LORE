@@ -3,7 +3,7 @@
 
 ## What is an Entity?
 
-An entity represents an specific object. It possess an unique ID that will be reused by the components that forms it (like an [exit component](Exit.md)). Therefore, is the foundation of the ECS architecture.
+An entity represents an specific object. It possess an unique ID that will be reused by the components that forms it (like an exit component. Therefore, is the foundation of the ECS architecture.
 
 ![[object_entity_component.png]]
 ## Model
@@ -59,15 +59,10 @@ Currrently LORE provides the following components that can be added to the entit
 - [[Container]]
 - [[Inventory Item]]
 - [[Exit]]
-- [[Player]]
-- [[Action]]
-- [[Trigger]]
-- [[Condition]]
-- [[Effect]]
-- [[Hub]]
-- [[Trail]]
+- rest of components
+
 
 With these components some non-modifiable systems are automatically created but players can modify others such as:
 
-- [[Action System]]
-- [[Trail System]]
+- Action System
+- Trail System

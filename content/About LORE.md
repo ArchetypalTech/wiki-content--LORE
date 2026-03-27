@@ -38,6 +38,7 @@ In simple terms, LORE connects three layers:
 
 This allows a creator to publish a world, a player to enter it, and the engine to respond to their actions while preserving the state of that journey.
 
+Please check [[How LORE works]] for further detail.
 
 ## For Players
 
@@ -60,6 +61,7 @@ This makes LORE useful for:
 
 - game systems that mix narrative and programmable logic
 
+A small summary can be check at [[Creating Worlds in LORE]]
 ## In One Sentence
 
 LORE is an onchain engine for creating and playing multiplayer text-based story worlds.
