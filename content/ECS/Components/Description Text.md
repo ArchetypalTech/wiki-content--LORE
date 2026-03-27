@@ -29,6 +29,6 @@ pub struct DescriptionText {
 
 - `inst`: Is the unique ID of the entity/object to whom the component is attached to.
 
-- `key`: Is the per-entity description id/key. Value is stored inside the [Reactable's `description`](reactable#variables-characteristics) variable
+- `key`: Is the per-entity description id/key. Value is stored inside the [Reactable's `description`](Reactable.md#variables-characteristics) variable
 
 - `text`: Stores the actual content.
