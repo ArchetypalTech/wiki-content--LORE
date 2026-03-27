@@ -5,7 +5,7 @@
 
 An entity represents an specific object. It possess an unique ID that will be reused by the components that forms it (like an [exit component](exit)). Therefore, is the foundation of the ECS architecture.
 
-![[attachments/object_entity_component.png]]
+![[object_entity_component.png]]
 ## Model
 
 The `Entity` Dojo model, as mentioned previously; is the foundation of the ECS architecture. It's composed by:

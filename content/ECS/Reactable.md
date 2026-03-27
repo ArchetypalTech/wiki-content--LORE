@@ -42,7 +42,7 @@ pub struct Reactable {
 
 - `is_visible`: Indicates whether the object should currently be visible when checking the location context.
 
-- `description`: An array that stores the `key` variable from the [[Description Text]] from which the corresponding descriptions can be matched through the `action_map`.
+- `description`: An array that stores the `key` variable of [[Description Text]]  component from which the corresponding descriptions texts can be linked  through the `action_map`.
 
 - `already_shown`: Is the state flag for first-time text behavior and if true then display the `new_entry`.
 
