@@ -17,6 +17,28 @@ The player system in LORE combines three responsibilities:
 This means the player system is both a world-state model and a session-state model.
 
 
+## System Diagram
+  
+
+```mermaid
+
+flowchart TD
+
+    A[Player System] --> B[Player]
+
+    A --> C[PlayerStory]
+
+    A --> D[StoryLine]
+
+    B --> E[Identity and location]
+
+    C --> F[Session counters]
+
+    D --> G[Recorded output history]
+
+```
+
+
 ## Core Structures
 
 `player.cairo` defines three central models:
@@ -74,6 +96,20 @@ This gives the player system a built-in session log, which is important for text
 
 One important design detail in `player.cairo` is that the system uses a singleton base player entity and then creates per-game player instances from it.
 
+```mermaid
+
+flowchart LR
+
+    A[Base Player entity] --> B[Game instance A player]
+
+    A --> C[Game instance B player]
+
+    B --> D[State for game_id A]
+
+    C --> E[State for game_id B]
+
+```
+
 In practical terms:
 
 - there is a base player definition in the world
@@ -110,6 +146,20 @@ This makes the player system one of the main links between world structure and p
 ## Story Output
 
 The player system is also responsible for producing and storing session output.  
+
+```mermaid
+
+flowchart TD
+
+    A[Player action] --> B[Command logged]
+
+    B --> C[World responds]
+
+    C --> D[StoryLine written]
+
+    D --> E[History attached to game_id]
+
+```
 
 From the structure of `player.cairo`, player-related methods handle authored responses, command logging, debug lines, and error lines. This means the player system acts as the running narrative record of play, not only as a storage container for stats or coordinates.
 
