@@ -143,6 +143,9 @@ The player system is closely tied to world navigation. The `Player` model stores
 This makes the player system one of the main links between world structure and play. The player is the point through which room descriptions, visible entities, and movement become part of the interactive fiction flow.
 
 
+
+.
+.....
 ## Story Output
 
 The player system is also responsible for producing and storing session output.  
