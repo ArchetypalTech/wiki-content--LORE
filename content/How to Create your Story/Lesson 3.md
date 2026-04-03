@@ -1,6 +1,7 @@
 ## Lesson 3. Create The Teleport Shrine
 
 Create `Teleport Shrine` under `Mountain Pass`.
+
 ![[teleport.png|390]]
 
 Add:

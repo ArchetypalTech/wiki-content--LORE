@@ -10,6 +10,7 @@ Now, LORE allows you to transition from one story to another through **`hubs`**.
 ## Sword
 
 Create the `Sword` under `Mountain Pass`.
+
 ![[ebony sword.png|390]]
 
 Add:

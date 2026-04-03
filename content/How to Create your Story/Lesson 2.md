@@ -6,6 +6,7 @@ Create two exit entities for allowing movement between locations.
 ### Cave Entrance 
 
 Create `Cave Entrance` under  `Mountain Pass`.
+
 ![[cave_entrance.png|390]]  
 
 Add:
