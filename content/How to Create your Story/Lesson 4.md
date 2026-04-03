@@ -11,6 +11,7 @@ Now, LORE allows you to transition from one story to another through **`hubs`**.
 
 Create the `Sword` under `Mountain Pass`.
 
+
 ![[ebony sword.png|390]]
 
 Add:
@@ -21,7 +22,7 @@ Add:
 
 Suggested values:
 
-- `Entity.name`: * Ebony Sword* 
+- `Entity.name`: *Ebony Sword* 
 - `Entity.alt_names`:  *sword*
 - `InventoryItem.can_be_picked_up`: *true*
 - `InventoryItem.owner_id`: *Mountain Pass*
