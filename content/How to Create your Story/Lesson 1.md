@@ -48,6 +48,8 @@ Create three entities:
 2. `Dragon Cave`
 3. `City Plaza`
 
+![[locations.png]]
+
 For each entity, add:
 
 - `Area`
@@ -59,8 +61,6 @@ Suggested setup:
 
 
 ### Mountain Pass
-
-![[moutain_pass.png|390]]
 
 - `Entity.name`: Mountain Pass
 - `Entity.alt_names`: *mountain*, *pass* 
@@ -85,7 +85,6 @@ Suggested setup:
 
 ### Dragon Cave
 
-![[dragon_cave.jpg|390]]
 - `Entity.name`: Dragon Cave
 - `Entity.alt_names`: *cave* 
 - `Area.is_spawn_point`:  *false*
@@ -109,7 +108,6 @@ Suggested setup:
 
 ### City Plaza
 
-![[city_plaza.png|390]]
 - `Entity.name`: City Plaza
 - `Entity.alt_names`: *plaza* 
 - `Area.is_spawn_point`:  *false*

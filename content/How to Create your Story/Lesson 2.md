@@ -7,7 +7,7 @@ Create two exit entities for allowing movement between locations.
 
 Create `Cave Entrance` under  `Mountain Pass`.
 
-![[cave_entrance.png|390]]  
+![[cave_entr_location.png]]
 
 Add:
 
@@ -40,7 +40,8 @@ Set:
 ### Mountain Path
 
 Create `Mountain Path` under `Dragon Cave`.
-![[mountain_path.png|390]]
+
+![[path_location.png]]
 
 Add:
   
@@ -78,6 +79,7 @@ This teaches that movement is not built into the room itself. It is authored as 
 ### Checkpoint
 
 You should now be able to move between two spaces using authored exits.
+
 
 ### Next Step
 

@@ -2,7 +2,7 @@
 
 Create `Teleport Shrine` under `Mountain Pass`.
 
-![[teleport.png|390]]
+![[teleport_location.png]]
 
 Add:
 
@@ -40,6 +40,7 @@ The teleport is authored as an exit that exists before it becomes usable. This i
 ### Checkpoint
 
 The learner should see the teleport shrine in the mountains but should not be able to use it yet.
+
 
 ### Next Step
 

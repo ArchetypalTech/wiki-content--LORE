@@ -87,6 +87,8 @@ In practice, a condition reads a property from a component on the target entity 
 
 This makes conditions the gatekeeping layer of the action system. A trigger may say that an action is being attempted in the right context, while a condition answers whether the state of the world actually permits the action to proceed.
   
+The `value` input field accepts is of type `felt252` but when setting up on the `Editor Tool` you can insert the value as `string`, `int`,  and`number`  without worring about the conversion as we handle that ourself.  Yet you can always use **[Stark-utils](https://www.stark-utils.xyz/converter)** to get the corresponding value. For the case of `boolean` you can refer them as `string` *false* or *true* that correspond to `0n` and `1n`.
+
 
 ### Effect
 

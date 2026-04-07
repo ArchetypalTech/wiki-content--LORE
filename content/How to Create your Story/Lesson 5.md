@@ -1,10 +1,10 @@
 ## Lesson 5. Create The Dragon And The Hidden Reward
 
-
 ## Dragon
 
-Create `Dragon` under `Dragon Cave`.
-![[dragon.png|390]]
+Create `Red Dragon` under `Dragon Cave`.
+
+![[dragon_heart1.png]]
 
 Add:
 
@@ -17,7 +17,8 @@ Suggested values:
 - `Entity.name`: *Red Dragon*
 - `Entity.alt_names`: *dragon*
 - `Container.can_be_opened`: *false*
-- `Container.is_opne`: *false*
+- `Container.can_receive_items`: *false*
+- `Container.is_open`: *false*
 - `Container.num_of_slots`: *1*
 - `Container.actions`:
 
@@ -26,6 +27,9 @@ Suggested values:
 | open   | Open  |
 | close  | Close |
 | check  | Check |
+
+![[dragon_container.png|390]]
+
 - `Description 0`: *a great red DRAGON*
 - `Description 1`: *There is no words to describe this legendary creature. Your only advantage is that its sleeping*
 - `Reactable.new_entry`: *a great read DRAGON*
@@ -35,12 +39,15 @@ Suggested values:
 | ------- | ----------------------- | ----- | ----- |
 | look    | ReadSpecificDescription | 0     | 0     |
 | examine | ReadSpecificDescription | 1     | 1     |
-| check   | ReadSpecificDescription | 1     | 1     |
+| touch   | ReadSpecificDescription | 2     | 2     |
+**Note**: For the verb `touch` the `idx`is set to 2 despite no `description_text` with `key: 2` existing. This will be explained why at the next lesson.
+
 
 ## Dragon Heart
 
-Now create `Dragon Heart` under `Dragon`.
+Now create `Dragon Heart` under `Red Dragon`.
 
+![[dragon_heart.png]]
 
 Add:
 
@@ -50,7 +57,7 @@ Add:
 
 Set:
 
-- `Entity.name`: * Dragon Hear* 
+- `Entity.name`: * Dragon Heart* 
 - `Entity.alt_names`:  *heart*
 - `InventoryItem.can_be_picked_up`: *false*
 - `InventoryItem.owner_id`: *Red Dragon*
@@ -64,6 +71,8 @@ Set:
 | put    | PutItem     |
 | take   | TakeItemOut |
 | use    | UseItem     |
+
+![[heart_invItem.png|390]]
 
 - `Reactable.is_visible = false`
 - `Description 0`: *a dragon HEART*
@@ -91,6 +100,7 @@ This is the setup for a classic reveal pattern:
 ### Checkpoint
 
 The dragon should be visible in the cave. The dragon heart should exist in the cave but remain hidden and cannot be stolen, picked, taken, or interacted with.
+
 
 ### Next Step
 

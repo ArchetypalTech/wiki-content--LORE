@@ -1,18 +1,17 @@
 ## Lesson 4. The Player And Starting Sword
 
-
 ## Player 
 
-As you know, in order to have access to the editor you need to **Crossroads** in **O'RUGGIN**. So obviously, you will be playinig with the `PLAYER / CHARACTER` that you have there. 
+As you know, in order to have access to the editor you need to reach the **Crossroads** in **O'RUGGIN**. So obviously, you will be playing with the `PLAYER / CHARACTER` that you have there. 
 
 Now, LORE allows you to transition from one story to another through **`hubs`**. So basically you don't need to create a new `PLAYER` entity for your story as you will be able to continue to play with existing one.
+
 
 ## Sword
 
 Create the `Sword` under `Mountain Pass`.
 
-
-![[ebony sword.png|390]]
+![[sword_location.png]]
 
 Add:
 
@@ -64,6 +63,7 @@ As you will be *"bringing* your player from **O'RUGGIN** you will have to `**pic
 ### Checkpoint
 
 You should now understand that inventory is represented through `InventoryItem` plus parent-child placement.
+
 
 ### Next Step
 
