@@ -20,7 +20,7 @@ Set:
 
 - `Description 0`: *a TELEPORT shrine*
 - `Description 1`: *A ring of ancient stone surrounds a sleeping teleport gate. A hollow socket is at its center*
-- `Reactable.actions:
+- `Reactable.actions`:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |

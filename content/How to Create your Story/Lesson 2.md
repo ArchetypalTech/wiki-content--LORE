@@ -28,7 +28,7 @@ Set:
 - `Reactable.new_entry`: *a CAVE entrance*
 - `Description 0`: *a CAVE entrance*
 - `Description 1`: *the size of it is enormous. The color of the rock is mixture of black and blue. Fire marks can be seen on the rock.*
-- `Reactable.actions:
+- `Reactable.actions`:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -62,7 +62,7 @@ Set:
 - `Reactable.new_entry`: *a  mountain PAHT*
 - `Description 0`: *a mountain PATH*
 - `Description 1`: *the path that leads back to the Mountain Pass from the Dragon Cave. Rests of bones, weapons and armors can be seen along the way*
-- `Reactable.actions:
+- `Reactable.actions`:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |

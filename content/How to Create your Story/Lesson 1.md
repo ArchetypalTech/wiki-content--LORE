@@ -69,10 +69,10 @@ Suggested setup:
 
 ![[mountain_ent_area.png|390]]
 
-- `description 0:  *You stand high in MOUNTAIN PASS. A dormant teleport shrine rests nearby, and a cave entrance opens to the north. You can see:* 
-- `description 1: *As you walk towards the edge of the pass, the wind starts howling. The views are amazing but the cold is starting to get you.* 
+- `description 0`:  *You stand high in MOUNTAIN PASS. A dormant teleport shrine rests nearby, and a cave entrance opens to the north. You can see:* 
+- `description 1`: *As you walk towards the edge of the pass, the wind starts howling. The views are amazing but the cold is starting to get you.* 
 - `Reactable.new_entry`: *You stand high in MOUNTAIN PASS. You can see:*
-- `Reactable.actions:
+- `Reactable.actions`:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -92,10 +92,10 @@ Suggested setup:
 
 ![[cave_ent_area.png|390]]
 
-- `description 0:  *The cave is hot and smoky. You can feel a terrifying energy deeper within the darkness. You can see:* 
-- `description 1: *You light your torch for a brief moment and what you see are only the rests of previous adventurers. You ask yourself if you will end like them or not before turning off your torch* 
+- `description 0`:  *The cave is hot and smoky. You can feel a terrifying energy deeper within the darkness. You can see:* 
+- `description 1`: *You light your torch for a brief moment and what you see are only the rests of previous adventurers. You ask yourself if you will end like them or not before turning off your torch* 
 - `Reactable.new_entry`: *An endless darkness within the cave. You can see:*
-- `Reactable.actions:
+- `Reactable.actions`:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -115,8 +115,8 @@ Suggested setup:
 
 ![[plaza_ent_area.png|390]]
 
-- `description 0:  *The city PLAZA. It's busting with people of different races. The water fountain, the cathedral, the guild building have a lot of traffic as always. Its good to be here. You can see:* 
-- `description 1`: *The weather today is comfortable. A nice sunny day but not hot, the smell of the fresh bread and other products entice you. Many adventurers go around, somo solo others in parties* 
+- `description 0`:  *The city PLAZA. It's busting with people of different races. The water fountain, the cathedral, the guild building have a lot of traffic as always. Its good to be here. You can see:* 
+- `description 1``: *The weather today is comfortable. A nice sunny day but not hot, the smell of the fresh bread and other products entice you. Many adventurers go around, somo solo others in parties* 
 - `Reactable.new_entry`: *The city PLAZA is busiest as ever with people of different races. You can see:*
 - `Reactable.actions:
 

@@ -41,7 +41,7 @@ The first condition is that the `PLAYER` must be in posession of the the `Ebony 
 
 ![[sword_condition.png]]
 
-***Note:*** *if `Condition.value` no longer shows `Player` don't worry as the internal convertor has changed from `string` to `felt252`. You can always click at the end of the entry value and it will show back as a `string` *
+***Note:*** If `Condition.value` no longer shows `Player` don't worry as the internal convertor has changed from `string` to `felt252`. You can always click at the end of the entry value and it will show back as a `string`.
 
 ![[sword_cond_change.png]]
 
@@ -166,6 +166,7 @@ Set:
 | Red Dragon    | Loot Dragon              |
 | Red Dragon    | Display Dragon Heart     |
 | Red Dragon    | Dragon Heart Interaction |
+
 ![[dragon_action_elements.png|390]]
 
 - `Action.failing_response`: 

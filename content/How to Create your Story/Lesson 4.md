@@ -41,7 +41,7 @@ Suggested values:
 - `Description 0`: *an ebony SWORD*
 - `Description 1`: *A deep dark two handed sword. A cracked ruby sits on its handle and you can feel a great power from it*
 - `Reactable.new_entry`: *an ebony SWORD*
-- `Reactable.actions:
+- `Reactable.actions`:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -57,7 +57,7 @@ This step teaches two things:
 - a carried item is still a normal entity with components
 - where an item is located is represented by hierarchy, not only by a property field
 
-As you will be *"bringing* your player from **O'RUGGIN** you will have to `**pick**` the sword and not `**put**` it in the `bag`.
+As you will be *"bringing"* your player from **O'RUGGIN** you will have to **pick** the sword and not **put** it in the **bag**.
 
 
 ### Checkpoint
