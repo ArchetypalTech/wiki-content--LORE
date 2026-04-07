@@ -208,7 +208,3 @@ After publishing and testing:
 ### Next Step
 
 The legend has been defeated and you now have the loot. It is  time to return to the city and get some good rest. Let's build the action system for returning to the city [[Lesson 7]].
-
-**Defeat the Legend**  
-  
-![[fighting dragon.mp4]]
