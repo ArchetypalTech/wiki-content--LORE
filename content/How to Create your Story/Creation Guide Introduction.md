@@ -4,10 +4,11 @@
 
 ## Overview 
 
-The lesson goal is to help a learner understand how a complete LORE scenario is authored from reusable ECS-style parts. By the end of the lesson, the learner should be able to build a short interactive sequence in which:
+The lesson goal is to help you understand how a complete LORE scenario is authored from reusable ECS-style parts. By the end of the lesson, the learner should be able to build a short interactive sequence in which:
 
-- the player starts in the mountains
+- the player arrives in the mountains
 - a teleport exists but is initially inactive
+- the player picks a sword
 - the player enters a cave
 - the player uses a sword to defeat a dragon
 - the player obtains a dragon heart
@@ -128,42 +129,6 @@ flowchart TD
 
   
 
-Interpretation:
-
-  
-- the three places are top-level areas
-- the player begins inside `Mountain Pass`
-- the sword begins inside the player
-- the dragon and dragon heart begin inside the cave
-- the teleport shrine begins in the mountains
-
-
-## Component Plan
-
-Use this component plan throughout the lesson:
-
-- room: `Entity + Area + Reactable + DescriptionText`
-- path or doorway: `Entity + Exit`
-- world object with readable text: `Entity + Reactable + DescriptionText`
-- carried item: `Entity + InventoryItem + Reactable + DescriptionText`
-- carrying and storing: `Container`
-- logic target: `Entity + Reactable + Action + Trigger + Effect`
-
-
-This lesson uses two important interaction rules:
-
-1. The sword is used on the dragon.
-2. The dragon heart is used on the teleport shrine.
-
-  
-Both follow the same model:
-
-
-- the target entity stores the `Action`
-- the carried item is set as the `executor`
-- the action changes world state through effects
-
-
-With the plan set up, lets start with [[Lesson 1]].
+With the idea clear, lets start with [[Lesson 1]].
 
 

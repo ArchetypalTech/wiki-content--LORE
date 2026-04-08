@@ -1,26 +1,28 @@
-## Lesson 3. Create The Teleport Shrine
+# Lesson 3. Create The Teleport Shrine
 
-Create `Teleport Shrine` under `Mountain Pass`.
+## Teleport Shrine
+
+Create `Teleport Shrine` under **Mountain Pass**.
 
 ![[teleport_location.png]]
 
 Add:
 
-- `Exit`
-- `Reactable`
-- `DescriptionText`
+- Exit
+- Reactable
+- DescriptionText
 
 Set:
 
-- `Exit.is_enterable`: *false*
-- `Exit.leads_to`: *City Plaza*
-- `Exit.direction`: *Down*
+- **Exit.is_enterable**: *false*
+- **Exit.leads_to**: *City Plaza*
+- **Exit.direction**: *Down*
 
 ![[teleport_exit.png|390]]
 
-- `Description 0`: *a TELEPORT shrine*
-- `Description 1`: *A ring of ancient stone surrounds a sleeping teleport gate. A hollow socket is at its center*
-- `Reactable.actions`:
+- **Description 0**: *a TELEPORT shrine*
+- **Description 1**: *A ring of ancient stone surrounds a sleeping teleport gate. A hollow socket is at its center*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -39,7 +41,7 @@ The teleport is authored as an exit that exists before it becomes usable. This i
 
 ### Checkpoint
 
-The learner should see the teleport shrine in the mountains but should not be able to use it yet.
+You should now see the teleport shrine in the mountains but should not be able to use it yet.
 
 
 ### Next Step

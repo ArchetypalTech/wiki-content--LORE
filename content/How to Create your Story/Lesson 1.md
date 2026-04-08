@@ -1,8 +1,10 @@
-## Lesson 1.  Creating your Trail and the Three Rooms
+# Lesson 1.  Creating your Trail and the Three Rooms
+
+Let's embark on the journey on how to create a small text adventure.
 
 ## Trail Creation
 
-After having gained access to the editor and login in, what you want to do is create your trail; your own story. For that click on `Create Trail`.
+After having **gained access** to the editor and login in, what you want to do is to create your `trail`; your own story. For that click on `Create Trail`.
 
 ![[create_trail_button.png]]
 
@@ -12,6 +14,7 @@ This will create a trail section where you will be able to add the content. Feel
 ### Trail set up
 
 By default, your trail comes already with some components and some of their variables can be changed at your discretion.
+
 
 #### Entity
 
@@ -44,17 +47,17 @@ With the trail connected we can now start to create the locations for our story.
 
 Create three entities:
 
-1. `Mountain Pass`
-2. `Dragon Cave`
-3. `City Plaza`
+1. Mountain Pass
+2. Dragon Cave
+3. City Plaza
 
 ![[locations.png]]
 
 For each entity, add:
 
-- `Area`
-- `Reactable`
-- Two `DescriptionText`
+- Area
+- Reactable
+- Two DescriptionText
 - Modify the `new entry` from the `reactable` as well the `actions_map`
 
 Suggested setup:
@@ -62,17 +65,17 @@ Suggested setup:
 
 ### Mountain Pass
 
-- `Entity.name`: Mountain Pass
-- `Entity.alt_names`: *mountain*, *pass* 
-- `Area.is_spawn_point`:  *false*
-- `Area.progress_percentage`: *0*
+- **Entity.name**: Mountain Pass
+- **Entity.alt_names**: *mountain*, *pass* 
+- **Area.is_spawn_point**:  *false*
+- **Area.progress_percentage**: *0*
 
 ![[mountain_ent_area.png|390]]
 
-- `description 0`:  *You stand high in MOUNTAIN PASS. A dormant teleport shrine rests nearby, and a cave entrance opens to the north. You can see:* 
-- `description 1`: *As you walk towards the edge of the pass, the wind starts howling. The views are amazing but the cold is starting to get you.* 
-- `Reactable.new_entry`: *You stand high in MOUNTAIN PASS. You can see:*
-- `Reactable.actions`:
+- **Description 0**:  *You stand high in MOUNTAIN PASS. A dormant teleport shrine rests nearby, and a cave entrance opens to the north. You can see:* 
+- **Description 1**: *As you walk towards the edge of the pass, the wind starts howling. The views are amazing but the cold is starting to get you.* 
+- **Reactable.new_entry**: *You stand high in MOUNTAIN PASS. You can see:*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -85,17 +88,17 @@ Suggested setup:
 
 ### Dragon Cave
 
-- `Entity.name`: Dragon Cave
-- `Entity.alt_names`: *cave* 
-- `Area.is_spawn_point`:  *false*
-- `Area.progress_percentage`: *50*
+- **Entity.name**: Dragon Cave
+- **Entity.alt_names**: *cave* 
+- **Area.is_spawn_point**:  *false*
+- **Area.progress_percentage**: *50*
 
 ![[cave_ent_area.png|390]]
 
-- `description 0`:  *The cave is hot and smoky. You can feel a terrifying energy deeper within the darkness. You can see:* 
-- `description 1`: *You light your torch for a brief moment and what you see are only the rests of previous adventurers. You ask yourself if you will end like them or not before turning off your torch* 
-- `Reactable.new_entry`: *An endless darkness within the cave. You can see:*
-- `Reactable.actions`:
+- **Description 0**:  *The cave is hot and smoky. You can feel a terrifying energy deeper within the darkness. You can see:* 
+- **Description 1**: *You light your torch for a brief moment and what you see are only the rests of previous adventurers. You ask yourself if you will end like them or not before turning off your torch* 
+- **Reactable.new_entry**: *An endless darkness within the cave. You can see:*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -108,24 +111,24 @@ Suggested setup:
 
 ### City Plaza
 
-- `Entity.name`: City Plaza
-- `Entity.alt_names`: *plaza* 
-- `Area.is_spawn_point`:  *false*
-- `Area.progress_percentage`: *100*
+- **Entity.name**: City Plaza
+- **Entity.alt_names**: *plaza* 
+- **Area.is_spawn_point**:  *false*
+- **Area.progress_percentage**: *100*
 
 ![[plaza_ent_area.png|390]]
 
-- `description 0`:  *The city PLAZA. It's busting with people of different races. The water fountain, the cathedral, the guild building have a lot of traffic as always. Its good to be here. You can see:* 
-- `description 1``: *The weather today is comfortable. A nice sunny day but not hot, the smell of the fresh bread and other products entice you. Many adventurers go around, somo solo others in parties* 
-- `Reactable.new_entry`: *The city PLAZA is busiest as ever with people of different races. You can see:*
-- `Reactable.actions:
+- **Description 0**:  *The city PLAZA. It's busting with people of different races. The water fountain, the cathedral, the guild building have a lot of traffic as always. Its good to be here. You can see:* 
+- **Description 1`**: *The weather today is comfortable. A nice sunny day but not hot, the smell of the fresh bread and other products entice you. Many adventurers go around, somo solo others in parties* 
+- **Reactable.new_entry**: *The city PLAZA is busiest as ever with people of different races. You can see:*
+- **Reactable.actions:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
 | look    | ReadSpecificDescription | 0     | 0     |
 | examine | ReadSpecificDescription | 1     | 1     |
 | check   | ReadSpecificDescription | 1     | 1     |
-|         |                         |       |       |
+
 
 ![[plaza_react_desctxt.png|390]]
 

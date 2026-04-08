@@ -17,7 +17,7 @@ At a high level, creating a world in LORE involves:
 
 The exact implementation details can vary, but the overall workflow is oriented around turning authored content into a playable runtime experience.
 
-For a detailed guide plese check [[GUIDE FOR CREATING YOUR WORLD]]
+For a detailed guide plese check [[Creation Guide Introduction]].
 
 
 ## What A Creator Defines
@@ -44,17 +44,6 @@ These pieces together form the playable structure of a LORE world.
 LORE is designed for authored interactive worlds rather than only procedural or sandbox-style environments. This means creators shape how players move through the experience, what they can discover, and how the world responds to their actions.
 
 Because LORE is text-first, writing is a major part of world creation. Descriptions, responses, and interaction phrasing are not secondary interface details. They are part of the core design of the experience.
-
-
-## Editor And Contract Roles
-  
-In this repository, world creation is supported by both client-side and contract-side systems.
-
-- The client package provides an editor-facing interface for building and managing worlds.
-
-- The contracts package provides the underlying systems that store and enforce the authored world data.
-
-This separation allows creators to work through editing tools while relying on the contract layer as the persistent runtime.
 
 
 ## Publishing

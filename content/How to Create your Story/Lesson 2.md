@@ -1,34 +1,34 @@
-## Lesson 2. Connect The Mountain And The Cave
+# Lesson 2. Connect The Mountain And The Cave
 
 Create two exit entities for allowing movement between locations.  
 
 
 ### Cave Entrance 
 
-Create `Cave Entrance` under  `Mountain Pass`.
+Create `Cave Entrance` under  **Mountain Pass**.
 
 ![[cave_entr_location.png]]
 
 Add:
 
-- `Exit`
-- `Reactable`
-- `DescriptionText`
+- Exit
+- Reactable
+- DescriptionText
 
 Set:
 
-- `Entity.name`: *Cave Entrance*
-- `Entity.alt_names`: *cave*
-- `Exit.leads_to`: *Dragon Cave*
-- `Exit.is_enterable`: *true*
-- `Exit.direction_type`: *North*
+- **Entity.name**: *Cave Entrance*
+- **Entity.alt_names**: *cave*
+- **Exit.leads_to**: *Dragon Cave*
+- **Exit.is_enterable**: *true*
+- **Exit.direction_type**: *North*
 
 ![[cave_entr_exit.png|390]]
 
-- `Reactable.new_entry`: *a CAVE entrance*
-- `Description 0`: *a CAVE entrance*
-- `Description 1`: *the size of it is enormous. The color of the rock is mixture of black and blue. Fire marks can be seen on the rock.*
-- `Reactable.actions`:
+- **Reactable.new_entry**: *a CAVE entrance*
+- **Description 0**: *a CAVE entrance*
+- **Description 1**: *the size of it is enormous. The color of the rock is mixture of black and blue. Fire marks can be seen on the rock.*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -39,30 +39,30 @@ Set:
 
 ### Mountain Path
 
-Create `Mountain Path` under `Dragon Cave`.
+Create `Mountain Path` under **Dragon Cave**.
 
 ![[path_location.png]]
 
 Add:
   
-- `Exit`
-- `Reactable`
-- `DescriptionText`
+- Exit
+- Reactable
+- DescriptionText
 
 Set:
 
-- `Entity.name`: *Mountain PATH*
-- `Entity.alt_names`: *path*
-- `Exit.leads_to`: *Mountain Pass*
-- `Exit.is_enterable`: *true*
-- `Exit.direction_type`: *South*
+- **Entity.name**: *Mountain PATH*
+- **Entity.alt_names**: *path*
+- **Exit.leads_to**: *Mountain Pass*
+- **Exit.is_enterable**: *true*
+- **Exit.direction_type**: *South*
 
 ![[path_exit.png|390]]
 
-- `Reactable.new_entry`: *a  mountain PAHT*
-- `Description 0`: *a mountain PATH*
-- `Description 1`: *the path that leads back to the Mountain Pass from the Dragon Cave. Rests of bones, weapons and armors can be seen along the way*
-- `Reactable.actions`:
+- **Reactable.new_entry**: *a  mountain PAHT*
+- **Description 0**: *a mountain PATH*
+- **Description 1**: *the path that leads back to the Mountain Pass from the Dragon Cave. Rests of bones, weapons and armors can be seen along the way*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |

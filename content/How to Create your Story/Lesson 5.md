@@ -1,26 +1,26 @@
-## Lesson 5. Create The Dragon And The Hidden Reward
+# Lesson 5. Create The Dragon And The Hidden Reward
 
 ## Dragon
 
-Create `Red Dragon` under `Dragon Cave`.
+Create `Red Dragon` under **Dragon Cave.
 
 ![[dragon_heart1.png]]
 
 Add:
 
-- `Reactable`
-- `DescriptionText`
-- `Container`
+- Reactable
+- DescriptionText
+- Container
 
 Suggested values:
 
-- `Entity.name`: *Red Dragon*
-- `Entity.alt_names`: *dragon*
-- `Container.can_be_opened`: *false*
-- `Container.can_receive_items`: *false*
-- `Container.is_open`: *false*
-- `Container.num_of_slots`: *1*
-- `Container.actions`:
+- **Entity.name**: *Red Dragon*
+- **Entity.alt_names**: *dragon*
+- `Container.can_be_opened**: *false*
+- `Container.can_receive_items**: *false*
+- `Container.is_open**: *false*
+- `Container.num_of_slots**: *1*
+- `Container.actions**:
 
 | Action | Type  |
 | ------ | ----- |
@@ -30,10 +30,10 @@ Suggested values:
 
 ![[dragon_container.png|390]]
 
-- `Description 0`: *a great red DRAGON*
-- `Description 1`: *There is no words to describe this legendary creature. Your only advantage is that its sleeping*
-- `Reactable.new_entry`: *a great read DRAGON*
-- `Reactable.actions`:
+- **Description 0**: *a great red DRAGON*
+- **Description 1**: *There is no words to describe this legendary creature. Your only advantage is that its sleeping*
+- **Reactable.new_entry**: *a great read DRAGON*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -46,24 +46,24 @@ Suggested values:
 
 ## Dragon Heart
 
-Now create `Dragon Heart` under `Red Dragon`.
+Now create `Dragon Heart` under **Red Dragon**.
 
 ![[dragon_heart.png]]
 
 Add:
 
-- `InventoryItem`
-- `Reactable`
-- `DescriptionText`
+- InventoryItem
+- Reactable
+- DescriptionText
 
 Set:
 
-- `Entity.name`: * Dragon Heart* 
-- `Entity.alt_names`:  *heart*
-- `InventoryItem.can_be_picked_up`: *false*
-- `InventoryItem.owner_id`: *Red Dragon*
-- `InventoryItem.multiple_use`: *True*
-- `InventoryItem.actions`:
+- **Entity.name**: * Dragon Heart* 
+- **Entity.alt_names**:  *heart*
+- **InventoryItem.can_be_picked_up**: *false*
+- **InventoryItem.owner_id**: *Red Dragon*
+- **InventoryItem.multiple_use**: *True*
+- **InventoryItem.actions**:
 
 | Action | Type        |
 | ------ | ----------- |
@@ -75,11 +75,11 @@ Set:
 
 ![[heart_invItem.png|390]]
 
-- `Reactable.is_visible = false`
-- `Description 0`: *a dragon HEART*
-- `Description 1`: *The heart of a legenday creature. You can feel the overwhelming mana from it. It can be used for many things.*
-- `Reactable.new_entry`: *a dragon HEART*
-- `Reactable.actions`:
+- **Reactable.is_visible** : false`
+- **Description 0**: *a dragon HEART*
+- **Description 1**: *The heart of a legenday creature. You can feel the overwhelming mana from it. It can be used for many things.*
+- **Reactable.new_entry**: *a dragon HEART*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |

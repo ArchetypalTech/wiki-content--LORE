@@ -1,4 +1,4 @@
-## Lesson 4. The Player And Starting Sword
+# Lesson 4. The Player And Starting Sword
 
 ## Player 
 
@@ -9,24 +9,24 @@ Now, LORE allows you to transition from one story to another through **`hubs`**.
 
 ## Sword
 
-Create the `Sword` under `Mountain Pass`.
+Create the `Sword` under **Mountain Pass**.
 
 ![[sword_location.png]]
 
 Add:
 
-- `InventoryItem`
-- `Reactable`
-- `DescriptionText`
+- InventoryItem
+- Reactable
+- DescriptionText
 
 Suggested values:
 
-- `Entity.name`: *Ebony Sword* 
-- `Entity.alt_names`:  *sword*
-- `InventoryItem.can_be_picked_up`: *true*
-- `InventoryItem.owner_id`: *Mountain Pass*
-- `InventoryItem.multiple_use`: *True*
-- `InventoryItem.actions`:
+- **Entity.name**: *Ebony Sword* 
+- **Entity.alt_names**:  *sword*
+- **InventoryItem.can_be_picked_up**: *true*
+- **InventoryItem.owner_id**: *Mountain Pass*
+- **InventoryItem.multiple_use**: *True*
+- **InventoryItem.actions**:
 
 | Action | Type        |
 | ------ | ----------- |
@@ -38,10 +38,10 @@ Suggested values:
 
 ![[sword_invItem.png|390]]
 
-- `Description 0`: *an ebony SWORD*
-- `Description 1`: *A deep dark two handed sword. A cracked ruby sits on its handle and you can feel a great power from it*
-- `Reactable.new_entry`: *an ebony SWORD*
-- `Reactable.actions`:
+- **Description 0**: *an ebony SWORD*
+- **Description 1**: *A deep dark two handed sword. A cracked ruby sits on its handle and you can feel a great power from it*
+- **Reactable.new_entry**: *an ebony SWORD*
+- **Reactable.actions**:
 
 | Action  | Type                    | Idx 1 | Idx 2 |
 | ------- | ----------------------- | ----- | ----- |
@@ -59,10 +59,12 @@ This step teaches two things:
 
 As you will be *"bringing"* your player from **O'RUGGIN** you will have to **pick** the sword and not **put** it in the **bag**.
 
+Additionaly, you can always move entities around by simple clicking on them and dragging and releasing where you want to them to be.
+
 
 ### Checkpoint
 
-You should now understand that inventory is represented through `InventoryItem` plus parent-child placement.
+You should now understand that inventory is represented through `InventoryItem` plus parent-child placement. 
 
 
 ### Next Step
