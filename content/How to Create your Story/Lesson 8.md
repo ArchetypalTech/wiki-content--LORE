@@ -83,7 +83,7 @@ But you can also have your unique system like having an entity parent that store
 	
 ## The End
 
-Thanks for following up with this guide on how to create your own stories using LORE. By the where you learned that:
+Thanks for following up with this guide on how to create your own stories using O'RuggEd. By the where you learned that:
 
 - `Area` defines playable spaces.
 - `Exit` defines movement between spaces.
@@ -94,4 +94,4 @@ Thanks for following up with this guide on how to create your own stories using 
 
 This is the main teaching outcome of the lesson:
 
-LORE stories are assembled from reusable world objects and interaction rules. Once a learner understands this example, they can reuse the same patterns for doors, keys, offerings, enemies, switches, ritual objects, and larger quest chains.
+O'RuggEd stories are assembled from reusable world objects and interaction rules. Once a learner understands this example, they can reuse the same patterns for doors, keys, offerings, enemies, switches, ritual objects, and larger quest chains.

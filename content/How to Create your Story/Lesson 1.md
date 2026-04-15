@@ -36,7 +36,7 @@ Feel free to  add more description texts if you want. Also you can change the `A
 
 #### Trail
 
-The trail component allows to link your story to any object in the LORE universe that has a `Hub` component on any story. You can indicate to which one you want to connect to. For this guide we chose the `Crossroads` from `O'RUGGIN`.
+The trail component allows to link your story to any object in the O'RuggEd universe that has a `Hub` component on any story. You can indicate to which one you want to connect to. For this guide we chose the `Crossroads` from `O'RUGGIN`.
 
 ![[trail_trail.png]]
 
@@ -135,7 +135,7 @@ Suggested setup:
 
 ### Teaching Note
   
-This is the basic room pattern in LORE:
+This is the basic room pattern in O'RuggEd:
 
 - `Area` makes it a playable space
 - `Reactable` makes it describable

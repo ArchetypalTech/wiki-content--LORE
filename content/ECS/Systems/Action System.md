@@ -1,6 +1,6 @@
 # Action System
 
-The LORE action system defines how the world responds to player activity.
+The O'RuggEd action system defines how the world responds to player activity.
 
 At a high level, an action is a structured unit of gameplay logic. It can be attached to an entity, checked against runtime conditions, and used to change the state of the world. Currently, the action system is primarily composed by four related components:
 
@@ -17,7 +17,7 @@ Together, these models define when something can happen, whether it is allowed t
   
 ## Overview
 
-An action in LORE is not just a single command handler. It is a composed rule made up of smaller parts.
+An action in O'RuggEd is not just a single command handler. It is a composed rule made up of smaller parts.
 
 - The `Action` container is the main elemente.
 
@@ -28,7 +28,7 @@ An action in LORE is not just a single command handler. It is a composed rule ma
 - `Effect` define what changes in the world when the action is applied.
 
   
-This structure makes the system declarative. Instead of hardcoding every interaction as a custom flow, LORE can represent many interactions as data-driven combinations of triggers, conditions, and effects.
+This structure makes the system declarative. Instead of hardcoding every interaction as a custom flow, O'RuggEd can represent many interactions as data-driven combinations of triggers, conditions, and effects.
 
 ## Components
 ### Action
@@ -133,7 +133,7 @@ This sequence is important because the action system separates validation from m
   
 Actions and triggers track execution state per `game_id`.
 
-This means an action that has already fired in one game instance does not automatically count as executed in every other game instance. The action system therefore supports persistent but instance-specific progression, which matches LORE's broader model of per-game state.
+This means an action that has already fired in one game instance does not automatically count as executed in every other game instance. The action system therefore supports persistent but instance-specific progression, which matches O'RuggEd's broader model of per-game state.
 
 For actions marked by state as one-time interactions, this per-game execution record is what prevents repeated use within the same run.
 
@@ -147,7 +147,7 @@ This is an important part of the design. An action does not only change state. I
 
 ## Why The System Matters
 
-The action system is one of the main ways LORE turns authored world data into gameplay.
+The action system is one of the main ways O'RuggEd turns authored world data into gameplay.
 
 Rather than treating interactions as isolated scripts, it organizes them into reusable parts:
 
@@ -164,6 +164,6 @@ This makes the system suitable for text adventure interactions, reactive environ
 
 ## Summary
 
-The LORE action system is a data-driven interaction framework in which actions coordinate triggers, conditions, and effects to decide when world interactions can occur and how they change persistent game state.
+The O'RuggEd action system is a data-driven interaction framework in which actions coordinate triggers, conditions, and effects to decide when world interactions can occur and how they change persistent game state.
 
 Please review the HOW TO CREATE YOUR STORY GUIDE for a pratical example of how to add an Action System in your story.

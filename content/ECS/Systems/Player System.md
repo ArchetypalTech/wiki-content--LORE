@@ -1,14 +1,14 @@
 # Player System
 
 
-The LORE player system defines how a player exists in the world, how a play session is tracked, and how game output is recorded over time.
+The O'RuggEd player system defines how a player exists in the world, how a play session is tracked, and how game output is recorded over time.
 
 In the contracts package, this system is centered on the models and logic in `player.cairo`. At a high level, the file does not only define a player character. It also defines the relationship between a player, a game instance, and the running story log for that session.
 
 
 ## Overview
 
-The player system in LORE combines three responsibilities:
+The player system in O'RuggEd combines three responsibilities:
 
 - representing the player as an entity in the world
 - tracking per-game player state such as location and status
@@ -73,7 +73,7 @@ The `PlayerStory` struct stores story-level progression for a given `game_id`. I
 - a sub-action usage counter
 - a paid-action usage counter
 
-This indicates that LORE treats a play session as something more structured than simple location tracking. A game instance also carries its own output history and usage metrics.
+This indicates that O'RuggEd treats a play session as something more structured than simple location tracking. A game instance also carries its own output history and usage metrics.
 
 
 ## StoryLine
@@ -89,7 +89,7 @@ The `StoryLine` struct records individual lines of output associated with a game
   
 The associated `StoryLineType` enum distinguishes between different categories of output, including command lines, responses, system responses, debug output, and errors.
   
-This gives the player system a built-in session log, which is important for text-based play. In LORE, the player's experience is not only what state changes occurred, but also what the player saw and typed during the run.
+This gives the player system a built-in session log, which is important for text-based play. In O'RuggEd, the player's experience is not only what state changes occurred, but also what the player saw and typed during the run.
 
 
 ## Singleton Player And Per-Game Instances
@@ -116,7 +116,7 @@ In practical terms:
 - each game instance can receive its own version of that player state
 - the player state is therefore scoped to a specific run rather than being one global mutable player record
 
-This fits the wider LORE model of game-instance-specific state. It allows different playthroughs to evolve independently while still relying on a shared authored world.
+This fits the wider O'RuggEd model of game-instance-specific state. It allows different playthroughs to evolve independently while still relying on a shared authored world.
 
 
 ## Player Creation
@@ -129,7 +129,7 @@ The player logic in `player.cairo` includes helper functions for:
 
 When a new player instance is created, the system initializes the player state, sets a starting location, and begins the story log with an initial line of text.
 
-This means player creation in LORE is not only about allocating data. It also establishes the first point of entry into the world experience.
+This means player creation in O'RuggEd is not only about allocating data. It also establishes the first point of entry into the world experience.
 
 
 ## Location And Movement
@@ -177,13 +177,13 @@ The player system is designed around `game_id`. This means:
 - each run can have its own player state
 - story history and progression are tracked per game instance
 
-That structure is what allows LORE to support persistent, instance-specific play rather than treating every player interaction as part of a single global session.
+That structure is what allows O'RuggEd to support persistent, instance-specific play rather than treating every player interaction as part of a single global session.
 
 
 
 ## Why The Player System Matters
 
-The player system is one of the core runtime layers in LORE.
+The player system is one of the core runtime layers in O'RuggEd.
 It connects:
 
 - account identity
@@ -192,9 +192,9 @@ It connects:
 - text output history
 - progression within a game instance
 
-Without this layer, LORE would have authored world data but no consistent way to represent a player moving through that world and accumulating a readable session history.
+Without this layer, O'RuggEd would have authored world data but no consistent way to represent a player moving through that world and accumulating a readable session history.
 
   
 ## Summary
 
-The LORE player system represents the player as a game-bound world entity, tracks per-session state such as location and status, and records the story output that defines the player's ongoing interactive fiction experience.
+The O'RuggEd player system represents the player as a game-bound world entity, tracks per-session state such as location and status, and records the story output that defines the player's ongoing interactive fiction experience.

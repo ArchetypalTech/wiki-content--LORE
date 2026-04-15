@@ -4,7 +4,7 @@
 
 As you know, in order to have access to the editor you need to reach the **Crossroads** in **O'RUGGIN**. So obviously, you will be playing with the `PLAYER / CHARACTER` that you have there. 
 
-Now, LORE allows you to transition from one story to another through **`hubs`**. So basically you don't need to create a new `PLAYER` entity for your story as you will be able to continue to play with existing one.
+Now, O'RuggEd allows you to transition from one story to another through **`hubs`**. So basically you don't need to create a new `PLAYER` entity for your story as you will be able to continue to play with existing one.
 
 
 ## Sword

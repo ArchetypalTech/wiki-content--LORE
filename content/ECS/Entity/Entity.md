@@ -51,7 +51,7 @@ pub struct Entity {
 
 ## Attachable Components
 
-Currrently LORE provides the following components that can be added to the entity/object:
+Currrently O'RuggEd provides the following components that can be added to the entity/object:
 
 - [[Area]]
 - [[Reactable]]

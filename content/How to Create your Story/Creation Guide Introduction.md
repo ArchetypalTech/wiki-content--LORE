@@ -1,10 +1,10 @@
 # Creation Guide
 
- This page is a teaching guide for building a small playable story in the LORE editor.
+ This page is a teaching guide for building a small playable story in the O'RuggEd editor.
 
 ## Overview 
 
-The lesson goal is to help you understand how a complete LORE scenario is authored from reusable ECS-style parts. By the end of the lesson, the learner should be able to build a short interactive sequence in which:
+TheO'RuggEdson goal is to help you understand how a complete O'RuggEd scenario is authored from reusable ECS-style parts. By the end of the lesson, the learner should be able to build a short interactive sequence in which:
 
 - the player arrives in the mountains
 - a teleport exists but is initially inactive
@@ -30,10 +30,10 @@ After completing this lesson, a learner should understand:
 
 ## The Big Idea
 
-This lesson is not only about making a dragon scene. It is about learning the LORE authoring model.
+This lesson is not only about making a dragon scene. It is about learning the O'RuggEd authoring model.
 
 
-In LORE:
+In O'RuggEd:
 
 - an `Entity` is the object identity
 - components add capabilities
