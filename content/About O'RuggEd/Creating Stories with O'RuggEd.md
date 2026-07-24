@@ -17,7 +17,7 @@ At a high level, creating a world in O'RuggEd involves:
 
 The exact implementation details can vary, but the overall workflow is oriented around turning authored content into a playable runtime experience.
 
-For a detailed guide plese check [[Creation Guide Introduction]].
+For a detailed guide please check [[Creation Guide Introduction]].
 
 
 ## What A Creator Defines
@@ -50,6 +50,12 @@ Because O'RuggEd is text-first, writing is a major part of world creation. Descr
 
 Once authored, a world can be made available for players to enter and interact with. In O'RuggEd, publication is part of the broader system of organizing and exposing playable experiences rather than only exporting static content.
 
+
+## Invinting others to collaborate on your stories
+
+O'RuggEd allows owners of trails to invite other players to collaborate on the creation or modification of their stories. A collaborator proposes changes. Owners review and publish what they  like. Lastly, collaborators get notified of the result.
+
+Check [[Inviting to Collaborate in O'RuggEd]]] to find out more.
 
 ## Summary
 
